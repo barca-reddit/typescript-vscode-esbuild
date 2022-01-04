@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./out",
+        "forceConsistentCasingInFileNames": true,
+        "preserveWatchOutput": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "watch": true,
+    },
+    "references": [
+        {
+            "path": "./src/tsconfig.backend.json"
+        },
+        {
+            "path": "./src/tsconfig.frontend.json"
+        },
+    ],
+}
