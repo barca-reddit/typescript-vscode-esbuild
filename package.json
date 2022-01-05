@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "TypeScript multi-config VSCode setup for ESBuild.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "root": "tsc -p tsconfig.json",
+    "server": "tsc -p src/server/tsconfig.json",
+    "frontend": "tsc -p src/server/tsconfig.json"
   },
   "keywords": [],
   "author": "",
